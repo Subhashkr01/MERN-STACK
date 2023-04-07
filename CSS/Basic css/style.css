@@ -1,0 +1,259 @@
+p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    border: 2px solid blue;
+}
+
+h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    border: 2px solid blue;
+}
+
+/* class = .classNmae */
+/* id = #idName */
+
+.h3{
+    font-size: 108px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #72d00e;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    border: 2px solid blue;
+}
+
+/* List of css property */
+/* https://www.w3schools.com/cssref/default.asp */
+1.font
+2.color
+3.background
+4.border
+5.margin
+6.padding
+7.width
+8.height
+9.float
+10.position
+11.display
+12.text-align
+13.text-decoration
+14.text-transform
+15.text-indent
+16.letter-spacing
+17.word-spacing
+18.line-height
+19.vertical-align
+20.list-style
+21.list-style-type
+22.list-style-position
+23.list-style-image
+24.cursor
+25.overflow
+26.visibility
+27.z-index
+28.clear
+29.content
+30.counter-increment
+31.counter-reset
+32.page-break-after
+33.page-break-before
+34.page-break-inside
+35.quotes
+36.resize
+37.table-layout
+38.direction
+39.unicode-bidi
+40.speak
+41.writing-mode
+42.orphans
+43.widows
+44.zoom
+45.clip
+46.filter
+47.opacity
+48.ime-mode
+49.text-overflow
+50.word-wrap
+51.word-break
+52.border-collapse
+53.border-spacing
+54.caption-side
+55.empty-cells
+56.speak-header
+57.speak-numeral
+58.speak-punctuation
+59.border-top
+60.border-right
+61.border-bottom
+62.border-left
+63.border-top-color
+64.border-right-color
+65.border-bottom-color
+66.border-left-color
+67.border-top-style
+68.border-right-style
+69.border-bottom-style
+70.border-left-style
+71.border-top-width
+72.border-right-width
+73.border-bottom-width
+74.border-left-width
+75.border-top-left-radius
+76.border-top-right-radius
+77.border-bottom-right-radius
+78.border-bottom-left-radius
+79.border-image
+80.border-image-source
+81.border-image-slice
+82.border-image-width
+83.border-image-outset
+84.border-image-repeat
+
+/* List of css selector */
+/* https://www.w3schools.com/cssref/css_selectors.asp */
+1. *
+2. element
+3. #id
+4. .class
+5. element,element
+
+/* types of color */
+/* https://www.w3schools.com/cssref/css_colors.asp */
+1. color name
+2. hex code
+3. rgb code
+4. rgba code
+5. hsl code
+6. hsla code
+
+/* types of font */
+/* https://www.w3schools.com/cssref/css_websafe_fonts.asp */
+1. Arial
+2. Arial Black
+3. Comic Sans MS
+4. Courier New
+5. Georgia
+6. Impact
+7. Times New Roman
+8. Trebuchet MS
+9. Verdana
+10. Webdings
+11. Wingdings
+
+/* types of font size */
+/* https://www.w3schools.com/cssref/css_units.asp */
+1. px
+2. pt
+3. em
+4. rem
+5. %
+
+/* types of font weight */
+/* https://www.w3schools.com/cssref/pr_font_weight.asp */
+1. normal
+2. bold
+3. bolder
+4. lighter
+5. 100
+6. 200
+7. 300
+8. 400
+9. 500
+10. 600
+11. 700
+12. 800
+13. 900
+
+/* types of font style */
+/* https://www.w3schools.com/cssref/pr_font_font-style.asp */
+1. normal
+2. italic
+3. oblique
+
+/* types of font variant */
+/* https://www.w3schools.com/cssref/pr_font_font-variant.asp */
+1. normal
+2. small-caps
+
+/* types of text decoration */
+/* https://www.w3schools.com/cssref/pr_text_text-decoration.asp */
+1. none
+2. underline
+3. overline
+4. line-through
+5. blink
+
+/* types of text transform */
+/* https://www.w3schools.com/cssref/pr_text_text-transform.asp */
+1. none
+2. capitalize
+3. uppercase
+4. lowercase
+
+/* types of text align */
+/* https://www.w3schools.com/cssref/pr_text_text-align.asp */
+1. left
+2. right
+3. center
+4. justify
+
+
+/* types of unit */
+/* https://www.w3schools.com/cssref/css_units.asp */
+/* 1. px
+2. pt
+3. em
+4. rem
+5. % */
+
+/* How to decide CSS Units for a responsive website */
+/* https://www.w3schools.com/cssref/css_units.asp */
+/* 1. px units for borders
+2. % unit foe width relative to the parent
+3. em unit for margin and padding relative to fonts size of element 
+4.rem unit for fonts size relative to :root
+5. vw and vh for width and height relative to root  */
+
+header h1{
+    background-color: #2d20a13d;
+    background-color: #fff;
+    font-size: 10vw;
+}
+
+h1{
+    font-size: 10%;
+}
+
+/* css box model */
+/* https://www.w3schools.com/css/css_boxmodel.asp */
+/* 1. content
+2. padding
+3. border
+4. margin */
+
+.red{
+    background-color: red;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 10px;
+}
+
+.box{
+    background-color: red;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+}

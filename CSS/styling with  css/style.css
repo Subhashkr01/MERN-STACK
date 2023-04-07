@@ -1,0 +1,224 @@
+/* Styling with css
+1.Display Property
+2.Float and Clear
+3.CSS Position 
+*/
+
+/* Display Property
+1. Block
+2. Inline
+3. Inline-block
+4. None
+*/
+
+/* Block
+1. Block elements always start on a new line and take up the full width available
+2. Block elements can have a width, height, and padding
+3. Block elements can have a margin, but the margin will not collapse with the margins of other elements
+*/
+
+/* Inline
+1. Inline elements do not start on a new line and only takes up as much width as necessary
+2. Inline elements can have a width, height, and padding
+3. Inline elements can have a margin, but the margin will collapse with the margins of other elements
+*/
+
+/* Inline-block
+1. Inline-block elements do not start on a new line and only takes up as much width as necessary
+2. Inline-block elements can have a width, height, and padding
+3. Inline-block elements can have a margin, but the margin will collapse with the margins of other elements
+*/
+
+/* None
+1. None elements do not appear on the page
+*/
+
+/* Float and Clear
+1. Float
+2. Clear
+*/
+
+/* Float
+1. Float is used to take an element out of normal flow and position it to the left or right of its container
+2. Float is used to wrap text around images
+3. Float is used to create entire web layouts
+*/
+
+/* Clear
+1. Clear is used to specify what elements can float beside the cleared element and on which side
+2. Clear is used to specify that no element (within the same containing element) should touch the left or right side(s) of a box
+*/
+
+/* CSS Position
+1. Static
+2. Relative
+3. Absolute
+4. Fixed
+5. Sticky
+*/
+
+/* Static
+1. Static is the default position
+2. Static elements are not affected by the top, bottom, left, and right properties
+3. Static elements are always positioned according to the normal flow of the page
+*/
+
+/* Relative
+1. Relative is positioned relative to its normal position
+2. Relative elements are affected by the top, bottom, left, and right properties
+3. Relative elements are positioned according to the normal flow of the page
+*/
+
+/* Absolute
+1. Absolute is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed)  
+2. Absolute elements are affected by the top, bottom, left, and right properties
+3. Absolute elements are removed from the normal flow of the page
+*/
+
+/* Fixed
+1. Fixed is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled
+2. Fixed elements are affected by the top, bottom, left, and right properties
+3. Fixed elements are removed from the normal flow of the page
+*/
+
+/* Sticky
+1. Sticky is positioned based on the user's scroll position
+2. Sticky elements are affected by the top, bottom, left, and right properties
+3. Sticky elements are positioned according to the normal flow of the page
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.red-border{
+    border: 2px solid red;
+}
+
+/* block to inline 
+.block-to-inline{
+    display: inline;
+}
+*/
+
+p{
+    display: block;
+    margin: 40px;
+}
+
+/* inline to block
+.inline-to-block{
+    display: block;
+}
+*/
+
+a{
+    width: 400px;
+    display: inline-block;
+}
+
+/* inline-block to block
+.inline-block-to-block{
+    display: block;
+}
+*/
+
+.header{
+    background-color: blue;
+    
+}
+
+body{
+    background-color: lightpink;
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.kitty {
+    width: 400px;
+    /* float: left; */
+}
+
+.top-para {
+    /* clear: left; */
+    width: 90%;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.left {
+    width: 60%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.right {
+    width: 40%;
+    height: 100%;
+    background-color: lightyellow;
+    float: right;
+}
+
+/* CSS Overflow */
+/* Overflow
+1. Visible
+2. Hidden
+3. Scroll
+4. Auto
+*/
+
+/* Visible
+1. Visible is the default value. The overflow is not clipped. The content renders outside the element's box
+*/
+
+/* Hidden
+1. Hidden is used to hide any overflow
+*/
+
+/* Scroll
+1. Scroll is used to add scrollbars to an element with overflow
+*/
+
+/* Auto
+1. Auto is used to add scrollbars to an element with overflow when necessary
+*/
+
+
+.text-wrapper {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    overflow: hidden visible;
+    margin-left: 200px;
+}
+
+/* css position */
+/*1. static */
+/*2. relative */
+/*3. absolute */
+/*4. fixed */
+/*5. sticky */
+
